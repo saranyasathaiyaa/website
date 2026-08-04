@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PAINTER </title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+/* Navbar */
+nav{
+    background:#222;
+    padding:15px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:#fff;
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+nav ul li a:hover{
+    color:orange;
+}
+
+/* Hero Section */
+.hero{
+    height:90vh;
+    background:url('https://images.unsplash.com/photo-1513364776144-60967b0f800f') center/cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:60px;
+}
+
+.hero-content p{
+    font-size:20px;
+    margin:15px 0;
+}
+
+.btn{
+    background:orange;
+    color:white;
+    padding:12px 25px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+/* Services */
+.services{
+    padding:60px 8%;
+    text-align:center;
+}
+
+.services h2{
+    margin-bottom:30px;
+}
+
+.box-container{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+}
+
+.box{
+    background:white;
+    padding:25px;
+    width:300px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Gallery */
+.gallery{
+    padding:60px 8%;
+    text-align:center;
+    
+}
+
+.gallery img{
+    width:300px;
+    height:220px;
+    margin:10px;
+    border-radius:10px;
+}
+
+/* Contact */
+.contact{
+    background:#222;
+    color:white;
+    padding:50px;
+    text-align:center;
+}
+
+footer{
+    background:black;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <div class="logo">PAINTER</div>
+
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SERVICES</a></li>
+        <li><a href="#">GALLERT</a></li>
+        <li><a href="#">CONTECT</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>PROFFESIONAL PAINTING SERVICES</h1>
+        <p>Interior & Exterior Painting Experts</p>
+        <a href="#" class="btn">GET A QUOTE</a>
+    </div>
+</section>
+
+<!-- Services -->
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="box-container">
+        <div class="box">
+            <h3>HOUSE PAINTING</h3>
+            <p>Professional interior and exterior painting.</p>
+        </div>
+
+        <div class="box">
+            <h3>WALL DESIGN</h3>
+            <p>Creative wall texture and design solutions.</p>
+        </div>
+
+        <div class="box">
+            <h3>COMMERSIAL PAINTING</h3>
+            <p>Office and business painting services.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery">
+    <h2>OUR WORK</h2>
+
+    <img src="painter.jpg" alt="">
+    <img src="walls.jpg" alt="">
+    <img src="office.jpg" alt="">
+</section>
+
+<!-- Contact -->
+<section class="contact">
+    <h2>Contact Us</h2>
+    <p>📞 +91 6385-68-6026</p>
+    <p>✉ painter@gmail.com</p>
+</section>
+
+<footer>
+    <p><strong>© 2026 PAINTER DESIGN. ALL RIGHTS RESERVED</strong></p>
+</footer>
+
+</body>
+</html>
